@@ -1,24 +1,31 @@
-# README
+# Shopping List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### How to use
 
-Things you may want to cover:
+installing dependencies
 
-* Ruby version
+```
+bundle install
+```
 
-* System dependencies
+config your database settings
 
-* Configuration
+```
+touch .env
+echo "db_user=**
+      db_pass=**
+      db_host=**
+      db_port=**" >> .env
+```
 
-* Database creation
+create and migrate the database
 
-* Database initialization
+```
+rails db:setup
+```
 
-* How to run the test suite
+run the server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails s
+```
