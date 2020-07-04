@@ -32,6 +32,7 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
   gem 'webdrivers'
 end
 
