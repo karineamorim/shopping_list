@@ -1,4 +1,3 @@
 class List < ApplicationRecord
-  validates :name, presence: true
-  validates :order, presence: true
+  validates :name, :order, presence: true
 end
